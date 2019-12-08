@@ -1,0 +1,95 @@
+baseurl = "http://localhost:1313/"
+uglyurls = true
+relativeURLs=false
+languageCode = "zh-cn"
+title = "Macos学习笔记"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+preserveTaxonomyNames = true
+disablePathToLower = true
+
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
+
+[params]
+	# General information
+	author = "敖小剑"
+	keywords = "Mac,学习笔记,敖小剑"
+	description = "学习使用Macos"
+	copyright = "版权所有，转载请注明出处"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/skyao/learning-macos"
+	
+	version = ""
+	logo = "images/logo.png"
+	favicon = ""
+	
+	permalink = "#"
+    # reward button, comment this to disable it
+    reward = true
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+	
+	# Syntax highlighting theme
+	highlight_css  = ""
+	
+	[params.palette]
+		primary = "red"
+		accent  = "teal"
+	
+	[params.font]
+		text = "Ubuntu"
+		code = "Ubuntu Mono"
+
+[social]
+	twitter = ""
+	github  = "skyao"
+	email   = "aoxiaojian@gmail.com"
+
+
+[[menu.main]]
+	name   = "前言"
+	url    = "/"
+	weight = 1
+
+[[menu.main]]
+	name   = "硬件配置"
+	identifier = "hardware"
+	url    = "/hardware/"
+	weight = 100
+
+[[menu.main]]
+	name   = "系统设置"
+	identifier = "system"
+	url    = "/system/"
+	weight = 200
+
+[[menu.main]]
+	name   = "多媒体软件"
+	identifier = "media"
+	url    = "/media/"
+	weight = 300
+[[menu.main]]
+	name   = "网络软件"
+	identifier = "network"
+	url    = "/network/"
+	weight = 400
+
+[[menu.main]]
+	name   = "编程开发"
+	identifier = "programing"
+	url    = "/programing/"
+	weight = 1000
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
+
+
