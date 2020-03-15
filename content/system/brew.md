@@ -45,3 +45,18 @@ Updating Homebrew...
 
 ```
 
+也可以使用 socks5 代理，地址需要指定为 socks5 格式：
+
+```bash
+$ export ALL_PROXY=socks5://127.0.0.1:11080
+
+$ brew install wget
+Updating Homebrew...
+==> Installing dependencies for wget: gettext, libunistring and libidn2
+==> Installing wget dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.20.1.catalina.bot
+==> Downloading from https://akamai.bintray.com/10/107d7f386fbeea6979f9376cdbbcf
+######################################################################## 100.0%
+==> Pouring gettext-0.20.1.catalina.bottle.tar.gz
+```
+
