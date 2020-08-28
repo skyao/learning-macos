@@ -64,6 +64,13 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	weight = 100
 
 [[menu.main]]
+	name   = "系统监控"
+	identifier = "hardware-monitoring"
+	parent = "hardware"
+	url    = "/hardware/monitoring"
+	weight = 110
+
+[[menu.main]]
 	name   = "系统设置"
 	identifier = "system"
 	url    = "/system/"

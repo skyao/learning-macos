@@ -30,22 +30,5 @@ LABEL=win10 none ntfs rw,auto,nobrowse
 
 反思：对于移动硬盘/做数据备份和存储的盘符，用 exfat 格式应该是麻烦最少的，各个操作系统都可以支持。
 
-## 监控类软件
 
-### iStat Menus
 
-参考：https://xclient.info/s/istat-menus-for-mac.html 
-
-### HWMonitor
-
-- [硬件检测 HWMonitor for Mac 6.26.1800 完善传感器信息 赠送：专业解决黑苹果无法检测温度的姿势](https://www.itpwd.com/284.html#)
-
-### TG Pro
-
-- [如何使用TG Pro for Mac风扇控制来冷却Mac电脑](https://blog.51cto.com/14370425/2417873)
-
-### 温度监控
-
-- [驱动硬件传感器获取 CPU 温度详细信息](https://zuiyu1818.cn/posts/Hac_CPU_sensors.html)
-
-备注：以上三个，在我的黑苹果上，尝试无效，折腾时还把系统搞的差点启动不起来。放弃温度监控和风扇调速，让主板bios搞定吧。

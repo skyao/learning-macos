@@ -23,9 +23,9 @@ https://brew.sh/
 查看安装之后的版本：
 
 ```bash
-$ brew --version
-Homebrew 2.2.10
-Homebrew/homebrew-core (git revision 56d51c; last commit 2020-03-15)
+% brew --version
+Homebrew 2.4.13
+Homebrew/homebrew-core (git revision b509e; last commit 2020-08-28)
 ```
 
 ### 代理设置
@@ -60,3 +60,16 @@ Updating Homebrew...
 ==> Pouring gettext-0.20.1.catalina.bottle.tar.gz
 ```
 
+### 快捷设置
+
+修改 `~/.zshrc` 文件，加入以下内容：
+
+```zsh
+alias enable-proxy-alilang='export all_proxy=socks5://127.0.0.1:13659'
+alias unproxy='unset all_proxy'
+
+
+alias enable-proxy-efan='export all_proxy=socks5://127.0.0.1:11080'
+```
+
+这样就可以方便的在需要时设置代理了。
