@@ -9,8 +9,6 @@ description : "Macos学习"
 
 新折腾了一套黑苹果主机，后面准备用来作为工作主力。Mac操作系统的版本是 macOS Catalina，10.15.1。
 
-公司配置的笔记本更新为mac pro 16寸，操作系统 macOS Catalina，10.15.6。
-
 ### 访问方式
 
 这是个人学习Macos的笔记，请点击下面的链接阅读:

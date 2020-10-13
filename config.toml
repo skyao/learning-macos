@@ -88,6 +88,20 @@ googleAnalytics = "c7442f5794ea2abb71c6ff05dc0b8779"
 	weight = 400
 
 [[menu.main]]
+	name   = "下载软件"
+	identifier = "network-download"
+	parent = "network"
+	url    = "/network/download/"
+	weight = 410
+
+[[menu.main]]
+	name   = "网络命令"
+	identifier = "network-command"
+	parent = "network"
+	url    = "/network/command/"
+	weight = 420
+
+[[menu.main]]
 	name   = "编程开发"
 	identifier = "programing"
 	url    = "/programing/"
