@@ -7,7 +7,7 @@ description: >
   iStatistica Pro的安装和设置
 ---
 
-
+> TODO： 待和 system toolkit 对比
 
 iStatistica Pro 2.1 是一款高颜值的系统监控工具
 
