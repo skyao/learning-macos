@@ -10,10 +10,10 @@ assets/scss/_variables_project.scss
 Bootstrap variables overrides for theme.
 See https://github.com/twbs/bootstrap/pull/23260
 */
-@import url("/local/fonts.googleapis.com/css.css?family=Open+Sans:300,300i,400,400i,700,700i");
-@import url("/local/cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.0.1/dist/font-face.css");
-@import url("/local/fonts.googleapis.com/css2.css?family=Rubik:wght@300;400;500;600;700&display=swap");
-@import url("/local/fonts.googleapis.com/css2.css?family=Tajawal:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i");
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v27.0.1/dist/font-face.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap");
 @fa-font-path :        "../webfonts";
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)

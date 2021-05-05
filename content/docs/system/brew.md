@@ -16,15 +16,15 @@ https://brew.sh/
 ### 安装
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 查看安装之后的版本：
 
 ```bash
 % brew --version
-Homebrew 2.4.13
-Homebrew/homebrew-core (git revision b509e; last commit 2020-08-28)
+Homebrew 3.1.5
+Homebrew/homebrew-core (git revision 5e014bf244; last commit 2021-05-02)
 ```
 
 ### 代理设置
@@ -64,11 +64,8 @@ Updating Homebrew...
 修改 `~/.zshrc` 文件，加入以下内容：
 
 ```zsh
-alias enable-proxy-alilang='export all_proxy=socks5://127.0.0.1:13659'
-alias unproxy='unset all_proxy'
-
-
-alias enable-proxy-efan='export all_proxy=socks5://127.0.0.1:11080'
+alias proxyon='export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890'
+alias proxyoff='unset https_proxy http_proxy all_proxy'
 ```
 
 这样就可以方便的在需要时设置代理了。
