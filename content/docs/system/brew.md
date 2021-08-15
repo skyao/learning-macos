@@ -1,7 +1,7 @@
 ---
 title: "Brew"
 linkTitle: "Brew"
-weight: 210
+weight: 211
 date: 2021-04-26
 description: >
   Brew安装和设置
@@ -18,6 +18,8 @@ https://brew.sh/
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+偶然会因为网络问题可以先设置代码再执行上面这段安装代码。代理设置方式如底下描述，对安装脚本也是适用的。
 
 查看安装之后的版本：
 
@@ -59,13 +61,13 @@ Updating Homebrew...
 ==> Pouring gettext-0.20.1.catalina.bottle.tar.gz
 ```
 
-### 快捷设置
+#### 代理快捷设置
 
 修改 `~/.zshrc` 文件，加入以下内容：
 
-```zsh
+```bash
 alias proxyon='export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890'
 alias proxyoff='unset https_proxy http_proxy all_proxy'
 ```
 
-这样就可以方便的在需要时设置代理了。
+这样就可以方便的在需要时设置brew的代理了。

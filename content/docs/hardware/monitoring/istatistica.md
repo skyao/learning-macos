@@ -1,13 +1,13 @@
 ---
 title: "iStatistica Pro"
 linkTitle: "iStatistica"
-weight: 121
+weight: 122
 date: 2021-04-26
 description: >
   iStatistica Pro的安装和设置
 ---
 
-> TODO： 待和 system toolkit 对比
+> 和 system toolkit 对比之后，放弃了iStatistica 而选择了 system toolkit 
 
 iStatistica Pro 2.1 是一款高颜值的系统监控工具
 

@@ -9,7 +9,7 @@ description: >
 
 
 
-### 简单方式：开启原生支持
+### ~~简单方式：开启原生支持~~
 
 考虑到日常对ntfs分区的写入非常少，另外盘符也通常比较固定，因此，简单开启 macos的ntfs写入功能就可以了。
 
@@ -31,13 +31,17 @@ LABEL=win10 none ntfs rw,auto,nobrowse
 
 - [打开Mac OSX原生的读写NTFS功能](https://www.jianshu.com/p/e6116dd06a43)
 
+
+{{% alert title="警告" color="warning" %}}
+最新版本的Big Sur(11.4+)之后这个功能不再有效
+{{% /alert %}}
+
+
 ### 复杂方式：使用第三方软件
 
-下面这个文章介绍的非常清晰：
+对比之后选择采用 Tuxera Disk Manager 来支持 ntfs 格式。
 
-https://applehint.com/t/how-to-write-to-ntfs-drives-in-macos-catalina-and-mojave/1262
-
-- [Mac读写NTFS Paragon NTFS for Mac 15.5.53兼容10.15macOS Catalina无限试用](https://www.douban.com/note/722969555/)
+![tuxera](./images/tuxera.png)
 
 ### 其他
 
