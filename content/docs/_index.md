@@ -6,6 +6,7 @@ date: 2021-04-26
 menu:
   main:
     weight: 20
+    pre: <i class='fas fa-book'></i>
 ---
 
 {{% pageinfo %}}
