@@ -99,7 +99,7 @@ github_project_repo = "https://github.com/skyao/learning-macos"
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "8f763efbce07435e9"
+gcs_engine_id = "e28592b75469602bf"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
