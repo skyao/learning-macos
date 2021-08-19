@@ -19,7 +19,7 @@ enableMissingTranslationPlaceholders = true
 
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
-rss_sections = ["docs", "docsy"]
+rss_sections = ["docs", "hackintosh"]
 
 # Configure how URLs look like per section.
 [permalinks]
