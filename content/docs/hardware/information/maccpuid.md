@@ -1,7 +1,7 @@
 ---
 title: "MacCPUID"
 linkTitle: "MacCPUID"
-weight: 111
+weight: 10
 date: 2021-04-26
 description: >
   Macos上查看cpu信息的MacCPUID

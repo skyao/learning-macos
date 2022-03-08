@@ -1,7 +1,7 @@
 ---
 title: "System Toolkit"
 linkTitle: "System Toolkit"
-weight: 121
+weight: 10
 date: 2021-04-26
 description: >
   系统监控工具
@@ -15,15 +15,19 @@ System Toolkit是Mac平台上的一款系统工具。System Toolkit提供了系�
 
 ### 下载
 
-- 官方下载地址：[System Toolkit - System Maintenance And Info 3.3.4 - MacDrop](https://macdrop.net/system-toolkit-system-maintenance-and-info-3-3-4/)
-
-- 破解版本：[System Toolkit 3.4.0 系统工具包 - 精品MAC应用分享 (xclient.info)](https://xclient.info/s/system-toolkit.html)
+- 破解版本：[[System Toolkit 5.3.6 系统工具包 - 精品MAC应用分享 (xclient.info)](https://xclient.info/s/system-toolkit.html)](https://xclient.info/s/system-toolkit.html)
 
 ### 安装
 
-需要额外安装 System Toolkit server
+###  安装 monitoring helper
 
-### 运行
+在打开的界面上，选择 "download monitoring helper"，打开
+
+https://sascha-simon.com/en/helper.html
+
+下载 Helper.dmg 进行安装。重启 System Toolkit，在界面上选择 "auto start monitoring helper"
+
+## 运行
 
 概览页面：
 

@@ -1,7 +1,7 @@
 ---
-title: "TG Pro"
-linkTitle: "TG Pro"
-weight: 122
+title: "[归档]TG Pro"
+linkTitle: "[归档]TG Pro"
+weight: 98
 date: 2021-04-26
 description: >
   专业硬件温度监控软件

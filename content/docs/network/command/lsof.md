@@ -1,7 +1,7 @@
 ---
 title: "lsof命令"
 linkTitle: "lsof命令"
-weight: 411
+weight: 10
 date: 2021-04-26
 description: >
   Macos的 lsof 网络命令

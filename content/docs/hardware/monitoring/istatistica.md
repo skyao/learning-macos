@@ -1,7 +1,7 @@
 ---
-title: "iStatistica Pro"
-linkTitle: "iStatistica"
-weight: 122
+title: "[归档]iStatistica Pro"
+linkTitle: "[归档]iStatistica"
+weight: 99
 date: 2021-04-26
 description: >
   iStatistica Pro的安装和设置

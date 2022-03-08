@@ -1,13 +1,11 @@
 ---
 title: "Brew"
 linkTitle: "Brew"
-weight: 211
+weight: 20
 date: 2021-04-26
 description: >
-  Brew安装和设置
+  brew是macos下非常好用的应用安装管理工具
 ---
-
-
 
 ### 介绍
 
@@ -16,10 +14,37 @@ https://brew.sh/
 ### 安装
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+……
+
+**Warning**: /opt/homebrew/bin is not in your PATH.
+
+ Instructions on how to configure your shell for Homebrew
+
+ can be found in the 'Next steps' section below.
+
+**==>** **Installation successful!**
+
+……
+
+**==>** **Homebrew is run entirely by unpaid volunteers. Please consider donating:**
+
+ https://github.com/Homebrew/brew#donations
+
+**==>** **Next steps:**
+
+\- Run these two commands in your terminal to add Homebrew to your **PATH**:
+
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/sky/.zprofile
+
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+
+\- Run **brew help** to get started
+……
 ```
 
-偶然会因为网络问题可以先设置代码再执行上面这段安装代码。代理设置方式如底下描述，对安装脚本也是适用的。
+偶然会因为网络问题可以先设置代理再执行上面这段安装代码。代理设置方式如底下描述，对安装脚本也是适用的。
 
 查看安装之后的版本：
 

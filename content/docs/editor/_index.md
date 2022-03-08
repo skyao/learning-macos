@@ -1,10 +1,10 @@
 ---
-title: "编辑软件"
-linkTitle: "编辑"
-weight: 500
+title: "编辑器软件"
+linkTitle: "编辑器"
+weight: 600
 date: 2021-04-26
 description: >
-  Macos编辑软件
+  Macos编辑器软件
 ---
 
 

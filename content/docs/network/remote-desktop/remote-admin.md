@@ -1,11 +1,13 @@
 ---
-title: "开启远程桌面"
-linkTitle: "远程桌面"
-weight: 442
+title: "自带远程管理"
+linkTitle: "远自带远程管理"
+weight: 10
 date: 2021-05-02
 description: >
   开启远程桌面
 ---
+
+macos 自带远程管理功能。
 
 参考官方文档：
 

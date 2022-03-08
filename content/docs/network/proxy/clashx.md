@@ -1,7 +1,7 @@
 ---
 title: "Clashx"
 linkTitle: "Clashx"
-weight: 431
+weight: 10
 date: 2021-05-02
 description: >
   Clashx科学上网软件

@@ -1,7 +1,7 @@
 ---
 title: "Intel Power Gadget"
 linkTitle: "Intel Power Gadget"
-weight: 113
+weight: 20
 date: 2021-04-26
 description: >
   Intel Power Gadget用来查看cpu的功耗、频率、温度和使用率。
