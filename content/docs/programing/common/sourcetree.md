@@ -1,7 +1,7 @@
 ---
 title: "Sourcetree"
 linkTitle: "Sourcetree"
-weight: 100
+weight: 10
 date: 2022-03-10
 description: >
   git图形化工具

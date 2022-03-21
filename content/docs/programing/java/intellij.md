@@ -1,15 +1,15 @@
 ---
-title: "CLion"
-linkTitle: "CLion"
+title: "Intellij IDEA"
+linkTitle: "Intellij"
 weight: 30
 date: 2022-03-08
 description: >
-  CLion IDE
+  下载安装 Intellij IDEA
 ---
 
 ### 下载
 
-https://www.jetbrains.com/clion/download/#section=mac
+[Download IntelliJ IDEA: The Capable & Ergonomic Java IDE by JetBrains](https://www.jetbrains.com/idea/download/#section=mac)
 
 下载时注意根据 cpu 芯片进行选择，有 intel 和 Apple Silicon 两种。
 
