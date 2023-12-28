@@ -1,5 +1,15 @@
 .*
 !.gitignore
 public/
+<<<<<<< HEAD
 themes/
 update_theme.sh
+=======
+resources/
+node_modules/
+node_modules
+themes/
+init_docsy.sh
+package-lock.json
+.hugo_build.lock
+>>>>>>> upstream/learning-clean-2024
